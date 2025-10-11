@@ -1,12 +1,15 @@
 # Reproducibility
 To run my scripts follow the steps below:
 1. Create a virtual environment using Python 3.10
+
 `python3.10 -m venv skilltest_env`
 
-2. Activate the environment
+3. Activate the environment
+
 `source skilltest_env/bin/activate`
 
-3. Install requirements in the root folder
+5. Install requirements in the root folder
+
 `pip install -r requirements.txt`
 
 
