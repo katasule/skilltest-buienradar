@@ -134,7 +134,7 @@ def write_data_to_sql(df_measurements, df_stations, db_name):
                 cursor.execute(index_sql)
                 print('Secondary index created on "measurements.stationid".')
 
-                df_stations.to_sql('stations', conn, if_exists='replace', index=False) # TODO: change replace
+                df_stations.to_sql('stations', conn, if_exists='replace', index=False)
                 print("Data inserted into 'stations' table.")
 
                 df_measurements.to_sql('measurements', conn, if_exists='append', index=False)
