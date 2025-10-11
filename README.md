@@ -15,6 +15,8 @@ To run my scripts follow the steps below:
 
 
 
+
+
 <div style="text-align: center; margin-bottom: 20px;">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://www.zypp.io/static/assets/img/logos/zypp/white/500px.png" width="150">
