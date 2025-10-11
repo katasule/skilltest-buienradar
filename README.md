@@ -1,3 +1,17 @@
+# Reproducibility
+To run my scripts follow the steps below:
+1. Create a virtual environment using Python 3.10
+`python3.10 -m venv skilltest_env`
+
+2. Activate the environment
+`source skilltest_env/bin/activate`
+
+3. Install requirements in the root folder
+`pip install -r requirements.txt`
+
+
+
+
 <div style="text-align: center; margin-bottom: 20px;">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://www.zypp.io/static/assets/img/logos/zypp/white/500px.png" width="150">
