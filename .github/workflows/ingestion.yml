@@ -1,8 +1,8 @@
 name: Scheduled Weather Data Ingestion
 
 on:
-  schedule:
-    - cron: '*/20 * * * *'
+  # schedule:
+  #   - cron: '*/20 * * * *'
   workflow_dispatch:
 
 jobs:
